@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="author" content="Ho Kei Leung"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  </head>
+
+
+  <body id="homePage" class="mainText">
+    <div id="page">
+      <div class="container" id="navbar-master">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="nav-bar-logo" href="#">
+            <img src="images/HKL.png" alt="HKL Logo" width="120" height="120" class="d-inline-block" id="logo">
+          </a>
+          <button
+            	class="navbar-toggler"
+            	type="button"
+            	data-bs-toggle="collapse"
+            	data-bs-target="#toggleMobileMenu"
+            	aria-controls="toggleMobileMenu"
+            	aria-expanded="false"
+            	aria-label="Toggle navigation"
+            >
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="toggleMobileMenu">
+              <ul class="navbar-nav ms-auto text-center">
+                <li>
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a href="uxuidesign.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">UXUI Designs</a>
+                  <div class="dropdown-menu">
+                    <a href="bling.html" class="dropdown-item">Bling Loyalty App</a>
+                    <a href="tatemodern.html" class="dropdown-item">Tate Museum App Redesign</a>
+                  </div>
+                </li>
+                <li>
+                  <a class="nav-link" href="aboutme.html">About Me</a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+      </div>
+
+      <hr class="divider"></hr>
+
+      <div id="frontpagephoto" class="content">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div id="frontpage" class="content-text">
+                <h2 id="nametag">Hi, I am Ho Kei!</h2>
+                <p id="landing-text">A London based designer who love solving problems with beautiful, user centric digital experience.</p>
+              </div>
+              <div id="aboutmebutton" class="big-border-button">
+                <a href="aboutme.html">About Me</a>
+              </div>
+            </div>
+            <div class="col">
+              <div class="content-image" id="content-image1">
+                <img src="images/HKL_Front.png" alt="" height="700px">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <hr class="divider"></hr>
+
+      <!-- UIUX Carousel -->
+      <h1 class="frontpageheader">UXUI Design Project</h1>
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col">
+                        <div class="content-text">
+                          <p id="uiuxtitle">Jewellery brand application with loyalty programme</p>
+                          <p>Bling: is an Jewellery brand application with loyalty programme for customer to shop and review their account activities.</p>
+                          <p>Role: UXUI Designer</p>
+                          <p>Solo project</p>
+                        </div>
+                        <br>
+                        <div class="big-border-button">
+                          <a href="bling.html">Case Study</a>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="content-image" id="content-image1">
+                          <img src="images/bling-frontpage.png" alt="" height="400px">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col">
+                        <div class="content-text">
+                          <p id="uiuxtitle">Redesign a responsive website for the Tate museum</p>
+                          <p>Design an app and a responsive website for the Tate museum to advertise exhibitions and events, provide museum information to patrons, and enable patrons to schedule visits.</p>
+                          <p>Role: UXUI Designer</p>
+                          <p>Solo project</p>
+                        </div>
+                        <br>
+                        <div class="big-border-button">
+                          <a href="tatemodern.html">Case Study</a>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="content-image" id="content-image1">
+                          <img src="images/museum-frontpage.png" alt="" height="400px">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <br>
+        <hr class="divider"></hr>
+
+        <!-- Full Stack App Carousel -->
+        <h2 class="frontpageheader">Full Stack App</h2>
+        <div id="myCarousel2" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel2" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col">
+                        <div class="content-text">
+                          <p id="fullstacktitle">To Do app</p>
+                          <p>A full stack app for user to create tasks and track if the task is in progress or done.</p>
+                          <p>Tech stack: React, Express, PostgreSQL, Typescript, CSS, Node.js</p>
+                          <p>Role: Developer</p>
+                          <p>Solo project</p>
+                        </div>
+                        <br>
+                        <div class="big-border-button">
+                          <a href="https://hokeil-todo-app.netlify.app/">Live Demo</a>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="content-image" id="content-image1">
+                          <img src="images/ToDoApp.png" alt="" height="400px">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col">
+                        <div class="content-text">
+
+                          <p id="fullstacktitle">Paste-bin app</p>
+                          <p>A full stack app for user to post and edit a paste.</p>
+                          <p>Tech stack: React, Express, PostgreSQL, Typescript, CSS, Node.js</p>
+                          <p>Role: Developer</p>
+                          <p>Duo project</p>
+                        </div>
+                        <br>
+                        <div class="big-border-button">
+                          <a href="https://laura-hokei-pastebin-app.netlify.app/">Live Demo</a>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="content-image" id="content-image1">
+                          <img src="images/PasteBinApp.png" alt="" height="400px">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col">
+                        <div class="content-text">
+
+                          <p id="fullstacktitle">Study Resource Catalog App </p>
+                          <p>A full stack app for user collaboratively build and explore a shared catalog of useful study resources with each other.</p>
+                          <p>Tech stack: React, Express, PostgreSQL, Typescript, Chakra, Node.js</p>
+                          <p>Role: Developer</p>
+                          <p>Team project</p>
+                        </div>
+                        <br>
+                        <div class="big-border-button">
+                          <a href="https://study-resource-catalog-c7c5.netlify.app/">Live Demo</a>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="content-image" id="content-image1">
+                          <img src="images/StudyResource.png" alt="" height="400px">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel2" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel2" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <br>
+      <hr class="divider"></hr>
+
+      <div class="content">
+        <div class="container">
+          <h2 class="frontpageheader">Creative Coding</h2>
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+              <div id="index-image-box">
+                <a href="https://openprocessing.org/sketch/1976031">
+                  <img id="image-box"
+                    src="images/CC1.jpeg"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="placeholder"
+                    height= "416px"
+                  />
+                </a>
+              </div>
+
+              <div id="index-image-box">
+                <a href="https://openprocessing.org/sketch/1989530">
+                  <img id="image-box"
+                    src="images/CC2.jpeg"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="placeholder"
+                    height= "416px"
+                  />
+                </a>
+              </div>
+
+            </div>
+
+            <div class="col-lg-4 mb-4 mb-lg-0">
+              <div id="index-image-box">
+                <a href="https://openprocessing.org/sketch/1961519">
+                  <img id="image-box"
+                    src="images/CC3.jpeg"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="placeholder"
+                    height= "416px"
+                  />
+                </a>
+              </div>
+
+              <div id="index-image-box">
+                <a href="https://openprocessing.org/sketch/1988500">
+                  <img id="image-box"
+                    src="images/CC4.jpeg"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="placeholder"
+                    height= "416px"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 mb-4 mb-lg-0">
+              <div id="index-image-box">
+                <a href="https://openprocessing.org/sketch/1978670">
+                  <img id="image-box"
+                    src="images/CC5.jpeg"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="placeholder"
+                    height= "416px"
+                  />
+                </a>
+              </div>
+
+              <div id="index-image-box">
+                <a href="https://openprocessing.org/sketch/1986524">
+                  <img id="image-box"
+                    src="images/CC6.jpeg"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="placeholder"
+                    height= "416px"
+                  />
+                </a>
+              </div>
+            </div>
+
+          </div>
+        <!-- </div> -->
+
+  </div>
+
+  <hr class="divider"></hr>
+
+  <footer class="master-footer">
+    <div class="main-footer">
+      <div class="row">
+        <div class="col">
+          <p id="hkfooter">Ho Kei Leung &copy; 2024</p>
+        </div>
+        <div class="col">
+          <ul class="footer-nav">
+            <li><a class="btn btn-primary" style="background-color:transparent; border: 1px solid #494949;" href="aboutme.html" role="button">
+              <i class="fa fa-user me-2"></i>About Me</a>
+            </li>
+            <li><a class="btn btn-primary" style="background-color:transparent; border: 1px solid #494949;" href="https://www.linkedin.com/in/ho-kei-leung" role="button">
+              <i class="fa fa-linkedin me-2"></i>LinkedIn</a>
+            </li>
+            <li><a class="btn btn-primary" style="background-color:transparent; border: 1px solid #494949;" href="https://www.instagram.com/hk.l_london/" role="button">
+              <i class="fa fa-instagram me-2"></i>Instagram</a>
+            </li>
+            <li><a class="btn btn-primary" style="background-color:transparent; border: 1px solid #494949;" href="mailto:hokeileung1106@gmail.com" role="button">
+              <i class="fa fa-envelope me-2"></i>Email</a>
+            </li>
+          </ul>
+        </div>
+    </div>
+  </footer>
+
+
+
+	<script src="index.js"></script>
+  <script src="js/slideshow.js"></script>
+  <script src="js/slider.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>

@@ -1,0 +1,304 @@
+.mainText{
+      font-family: 'Poppins';
+}
+
+#homePage{
+  background-image: url("images/MainPage.png");
+  background-size: cover;
+}
+
+#aboutMe{
+  background-image: url("images/AboutMeBG.png");
+  background-size: cover;
+}
+
+#bling{
+  background-color: #fff8ec;
+  background-size: cover;
+  text-align: left;
+  margin: auto;
+  max-width: 80%;
+}
+
+#bling-content {
+    font-family: "Quicksand", sans-serif;
+}
+
+#tatemodern{
+  background-color: #fefefe;
+  background-size: cover;
+  text-align: left;
+  margin: auto;
+  max-width: 80%;
+}
+
+#tatemodern-content {
+  font-family: "Noto Sans", sans-serif;
+}
+
+#bling h2, h3 {
+  font-weight: bold;
+  text-align: center;
+}
+
+#tatemodern h2, h3 {
+  font-weight: bold;
+  text-align: center;
+}
+
+#introduction h2 {
+  text-align: left;
+}
+
+#bling img{
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+
+#tatemodern img{
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+
+p{
+  font-size: 1.2em;
+  line-height: 1.5em;
+
+}
+
+#nametag {
+  color: #000000;
+  font-size: 80px;
+  font-weight: 900;
+  line-height: 74px;
+  padding-bottom: 20px;
+  text-align: left;
+
+}
+
+#landing-text{
+  font-size: 1.7em;
+  line-height: 1.5em;
+}
+
+#fullstacktitle, #uiuxtitle{
+  font-size: 2em;
+  line-height: 1.5em;
+  text-decoration: bold;
+  font-weight: bold;
+}
+
+h1, h2, h3, h4{
+  color: black;
+	font-weight: normal;
+	line-height: 1.1em;
+  margin: 0 0 0.5em 0;
+  padding: 0;
+}
+
+
+
+.frontpageheader {
+  display: block;
+  text-align: center;
+  margin: 50px;
+  font-size: 3.5em;
+}
+
+
+#navbar-master{
+  padding-top: 20px;
+}
+
+.nav-link {
+  font-size: 1.5em;
+}
+
+.navbar-nav > li{
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.cs-sticky-sidebar {
+    opacity: 0;
+    z-index: 2;
+    width: 130px;
+    position: fixed;
+    top: 90px;
+    bottom: auto;
+    left: 32px;
+    right:auto;
+    text-align:left;
+
+}
+
+.cs-side-nav {
+    color: var(--gray-3);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    display:block
+}
+
+.cs-offset-section {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:80px
+}
+
+
+#logo{
+  padding: 10px;
+}
+
+.content{
+  color: black;
+}
+
+
+#frontpagephoto {
+  padding: 80px 0px;
+}
+
+#frontpage {
+  padding-top: 200px;
+  padding-left: 20px;
+}
+.content-text p {
+  text-align: left;
+}
+
+hr {
+  width: 80%;
+}
+
+
+#content-image1 {
+  text-align: right;
+}
+
+#content-image2 {
+  text-align: left;
+}
+
+#aboutmebutton {
+  padding-left: 20px;
+}
+
+.big-border-button a {
+  font-size: 20px;
+  color: #fff;
+  background-color: #7697a0;
+  padding: 15px 30px;
+  display: inline-block;
+  border-radius: 10px;
+  font-weight: 500;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.big-border-button a:hover {
+  background-color:#4b889d;
+  color: #000000;
+}
+
+#returnbutton {
+  max-width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+#blingreturn a {
+  color: #000;
+  background-color: #ffcd9e;
+}
+
+#tatereturn a {
+  color: #fff;
+  background-color: #0075c9;
+}
+
+
+.divider{
+  width: 70%;
+  margin: auto;
+  align: center;
+}
+
+#shortdivider {
+  width: 17%;
+}
+.carousel-control-next,
+.carousel-control-prev, .carousel-indicators {
+    filter: invert(100%);
+}
+
+.carousel-item {
+  padding-bottom: 150px;
+}
+
+.content-text {
+  text-align: center;
+}
+
+
+
+#index-image-box {
+  overflow: hidden;
+}
+
+#index-image-box img {
+  width: 100%;
+  transition: 0.5s all ease-in-out;
+}
+
+#index-image-box:hover img {
+
+  opacity: 0.4;
+  height: 416px;
+}
+
+
+/* information for the footer */
+.master-footer {
+  text-align: left;
+  padding: 25px 0px;
+  width: 100%;
+  height: 100px;
+  color: #494949;
+}
+
+.main-footer {
+  width: 68%;
+  margin: auto;
+}
+
+
+.footer-nav a {
+  color: #494949;
+  font-size: 13px;
+}
+
+.footer-nav {
+  list-style: none;
+  float: right;
+  padding: 0;
+  margin: auto;
+}
+
+#hkfooter {
+  margin-bottom: 0px;
+}
+
+.footer-nav li {
+  float: left;
+}
+
+.footer-nav li + li {
+  margin-left: 15px;
+}
